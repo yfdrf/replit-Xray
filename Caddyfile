@@ -1,7 +1,7 @@
 {
 	auto_https off
 }
-:4000 {
+:8080 {
 	encode zstd gzip
 	@path path {/{$UUID}-vless} {/{$UUID}D-trojan} {/{$UUID}-vmess}
 	handle @path {
